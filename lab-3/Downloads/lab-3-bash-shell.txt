@@ -1,0 +1,355 @@
+@c22448184 ➜ /workspaces/os-yr-1 (main) $ pwd
+/workspaces/os-yr-1
+@c22448184 ➜ /workspaces/os-yr-1 (main) $ mkdir lab-3
+@c22448184 ➜ /workspaces/os-yr-1 (m
+@c22448184 ➜ /workspaces/os-yr-1 (main) $ gpg --full- generate-key
+gpg (GnuPG) 2.2.19; Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+gpg: directory '/home/codespace/.gnupg' created
+gpg: keybox '/home/codespace/.gnupg/pubring.kbx' created
+usage: gpg [options] --full-generate-key
+@c22448184 ➜ /workspaces/os-yr-1 (main) $ options
+bash: options: command not found
+@c22448184 ➜ /workspaces/os-yr-1 (main) $ gpg --full-generate-key
+gpg (GnuPG) 2.2.19; Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Please select what kind of key you want:
+   (1) RSA and RSA (default)
+   (2) DSA and Elgamal
+   (3) DSA (sign only)
+   (4) RSA (sign only)
+  (14) Existing key from card
+Your selection? 1
+RSA keys may be between 1024 and 4096 bits long.
+What keysize do you want? (3072) 4096
+Requested keysize is 4096 bits
+Please specify how long the key should be valid.
+         0 = key does not expire
+      <n>  = key expires in n days
+      <n>w = key expires in n weeks
+      <n>m = key expires in n months
+      <n>y = key expires in n years
+Key is valid for? (0) 1m
+Key expires at Fri May 26 12:31:12 2023 UTC
+Is this correct? (y/N) y
+
+GnuPG needs to construct a user ID to identify your key.
+
+Real name: Jenny Thao Huynh
+Email address: C22448184@mytudublin.ie
+Comment: Hello there!
+You selected this USER-ID:
+    "Jenny Thao Huynh (Hello there!) <C22448184@mytudublin.ie>"
+
+Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? O
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+gpg: /home/codespace/.gnupg/trustdb.gpg: trustdb created
+gpg: key 507A29480F952077 marked as ultimately trusted
+gpg: directory '/home/codespace/.gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/home/codespace/.gnupg/openpgp-revocs.d/BF06677210AF31A7161B5717507A29480F952077.rev'
+public and secret key created and signed.
+
+pub   rsa4096 2023-04-26 [SC] [expires: 2023-05-26]
+      BF06677210AF31A7161B5717507A29480F952077
+uid                      Jenny Thao Huynh (Hello there!) <C22448184@mytudublin.ie>
+sub   rsa4096 2023-04-26 [E] [expires: 2023-05-26]
+
+@c22448184 ➜ /workspaces/os-yr-1 (main) $ gpg --list-keys
+gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: next trustdb check due at 2023-05-26
+/home/codespace/.gnupg/pubring.kbx
+----------------------------------
+pub   rsa4096 2023-04-26 [SC] [expires: 2023-05-26]
+      BF06677210AF31A7161B5717507A29480F952077
+uid           [ultimate] Jenny Thao Huynh (Hello there!) <C22448184@mytudublin.ie>
+sub   rsa4096 2023-04-26 [E] [expires: 2023-05-26]
+
+@c22448184 ➜ /workspaces/os-yr-1 (main) $ gpg --outputC22448184@mytudublin.ie.key--exportC22448184@mytudublin.ie
+gpg: invalid option "--outputC22448184@mytudublin.ie.key--exportC224481"
+@c22448184 ➜ /workspaces/os-yr-1 (main) $ gpg --output<C22448184@mytudublin.ie>.key--exportC22448184@mytudublin.ie
+bash: C22448184@mytudublin.ie: No such file or directory
+@c22448184 ➜ /workspaces/os-yr-1 (main) $ ls
+README.md  lab-2  lab-3
+@c22448184 ➜ /workspaces/os-yr-1 (main) $ cs lab-3
+bash: cs: command not found
+@c22448184 ➜ /workspaces/os-yr-1 (main) $ cd lab-3
+@c22448184 ➜ /workspaces/os-yr-1/lab-3 (main) $ ls
+@c22448184 ➜ /workspaces/os-yr-1/lab-3 (main) $ gpg --output C22448184@mytudublin.ie.key --export C22448184@mytudublin.ie
+@c22448184 ➜ /workspaces/os-yr-1/lab-3 (main) $ ls
+C22448184@mytudublin.ie.key
+@c22448184 ➜ /workspaces/os-yr-1/la
+@c22448184 ➜ /workspaces/os-yr-1/lab-3 (main) $ c
+@c22448184 ➜ /workspaces/os-yr-1/lab-3 (main) $ cd..
+bash: cd..: command not found
+@c22448184 ➜ /workspaces/os-yr-1/lab-3 (main) $ cd ..
+@c22448184 ➜ /workspaces/os-yr-1 (main) $ pwd
+/workspaces/os-yr-1
+@c22448184 ➜ /workspaces/os-yr-1 (main) $ mkdir Downloads
+@c22448184 ➜ /workspaces/os-yr-1 (main) $ cd Downloads
+@c22448184 ➜ /workspaces/os-yr-1/Downloads (main) $ touch jenny-text-file.txt
+@c22448184 ➜ /workspaces/os-yr-1/Downloads (main) $ pwd
+/workspaces/os-yr-1/Downloads
+@c22448184 ➜ /workspaces/os-yr-1/Downloads (main) $ pwd
+/workspaces/os-yr-1/Downloads
+@c22448184 ➜ /workspaces/os-yr-1/Downloads (main) $ pwd
+/workspaces/os-yr-1/Downloads
+@c22448184 ➜ /workspaces/os-yr-1/Downloads (main) $ gpg --import C22522443@mytudublin.ie.key 
+gpg: can't open 'C22522443@mytudublin.ie.key': No such file or directory
+gpg: Total number processed: 0
+@c22448184 ➜ /workspaces/os-yr-1/Downloads (main) $ ls
+jenny-text-file.txt  public-keys
+@c22448184 ➜ /workspaces/os-yr-1/Downloads (main) $ cd public-keys
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys (main) $ gpg --import C22522443@mytudublin.ie.key
+gpg: can't open 'C22522443@mytudublin.ie.key': No such file or directory
+gpg: Total number processed: 0
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys (main) $ ls
+C22448184@mytudublin.ie.key
+C22522443.key@mytudublin.ie.key
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys (main) $ gpg --import C22522443@mytudublin.ie.key
+gpg: key 216A0BED69576C62: public key "Franz Shih (Dasmykey) <C22522443@mytudublin.ie>" imported
+gpg: key 459A607D5F2DAAEE: public key "Franz Shih (DasMyKey) <C22522443@mytudublin.ie>" imported
+gpg: Total number processed: 2
+gpg:               imported: 2
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys (main) $ gpg --list-keys
+/home/codespace/.gnupg/pubring.kbx
+----------------------------------
+pub   rsa4096 2023-04-26 [SC] [expires: 2023-05-26]
+      BF06677210AF31A7161B5717507A29480F952077
+uid           [ultimate] Jenny Thao Huynh (Hello there!) <C22448184@mytudublin.ie>
+sub   rsa4096 2023-04-26 [E] [expires: 2023-05-26]
+
+pub   rsa4096 2023-03-29 [SC] [expires: 2023-04-28]
+      76011A73F8441B61C7A501CD216A0BED69576C62
+uid           [ unknown] Franz Shih (Dasmykey) <C22522443@mytudublin.ie>
+sub   rsa4096 2023-03-29 [E] [expires: 2023-04-28]
+
+pub   rsa4096 2023-04-26 [SC] [expires: 2023-05-26]
+      05626BAA1C9A68CB39A0AD7E459A607D5F2DAAEE
+uid           [ unknown] Franz Shih (DasMyKey) <C22522443@mytudublin.ie>
+sub   rsa4096 2023-04-26 [E] [expires: 2023-05-26]
+
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys (main) $ pwd
+/workspaces/os-yr-1/Downloads/public-keys
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys (main) $ gpg --import C22319896@mytudublin.ie.key
+gpg: key 4E119169A64763C5: public key "Calvin Delporte (erm what the flip) <C22319896@mytudublin.ie>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys (main) $ gpg --list-keys
+/home/codespace/.gnupg/pubring.kbx
+----------------------------------
+pub   rsa4096 2023-04-26 [SC] [expires: 2023-05-26]
+      BF06677210AF31A7161B5717507A29480F952077
+uid           [ultimate] Jenny Thao Huynh (Hello there!) <C22448184@mytudublin.ie>
+sub   rsa4096 2023-04-26 [E] [expires: 2023-05-26]
+
+pub   rsa4096 2023-03-29 [SC] [expires: 2023-04-28]
+      76011A73F8441B61C7A501CD216A0BED69576C62
+uid           [ unknown] Franz Shih (Dasmykey) <C22522443@mytudublin.ie>
+sub   rsa4096 2023-03-29 [E] [expires: 2023-04-28]
+
+pub   rsa4096 2023-04-26 [SC] [expires: 2023-05-26]
+      05626BAA1C9A68CB39A0AD7E459A607D5F2DAAEE
+uid           [ unknown] Franz Shih (DasMyKey) <C22522443@mytudublin.ie>
+sub   rsa4096 2023-04-26 [E] [expires: 2023-05-26]
+
+pub   rsa4096 2023-04-26 [SC] [expires: 2023-05-26]
+      798D420AA42B0E0471DFAF2A4E119169A64763C5
+uid           [ unknown] Calvin Delporte (erm what the flip) <C22319896@mytudublin.ie>
+sub   rsa4096 2023-04-26 [E] [expires: 2023-05-26]
+
+@c22448184 ➜ /workspaces/os-yr-1/Do@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-key@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys (main) $ g
+pg --output C22319896@mytudublin.ie.key encrpt --recipient C22319896@mytudublin.ie jenny-text-file.txt
+gpg: Note: '--recipient' is not considered an option
+gpg: WARNING: no command supplied.  Trying to guess what you mean ...
+usage: gpg [options] [filename]
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys (main) $ gpg --output C22319896@mytudublin.key encrypt --recipient C22319896@mytudublin.ie jenny-text-file.txt
+gpg: Note: '--recipient' is not considered an option
+gpg: WARNING: no command supplied.  Trying to guess what you mean ...
+usage: gpg [options] [filename]
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/p
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys (main) $ gpg --output encrypted_file.gpg --encrypt --recipient C22319896@mytudublin.ie jenny-text-file.txt
+gpg: 5915F851C00D4815: There is no assurance this key belongs to the named user
+
+sub  rsa4096/5915F851C00D4815 2023-04-26 Calvin Delporte (erm what the flip) <C22319896@mytudublin.ie>
+ Primary key fingerprint: 798D 420A A42B 0E04 71DF  AF2A 4E11 9169 A647 63C5
+      Subkey fingerprint: D298 E241 9DF2 2AE1 7014  E56B 5915 F851 C00D 4815
+
+It is NOT certain that the key belongs to the person named
+in the user ID.  If you *really* know what you are doing,
+you may answer the next question with yes.
+
+Use this key anyway? (y/N) y
+gpg: can't open 'jenny-text-file.txt': No such file or directory
+gpg: jenny-text-file.txt: encryption failed: No such file or directory
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys (main) $ gpg --output encrypted_file.gpg --encrypt --recipient C22319896@mytudublin.ie jenny-text-file.txt
+gpg: 5915F851C00D4815: There is no assurance this key belongs to the named user
+
+sub  rsa4096/5915F851C00D4815 2023-04-26 Calvin Delporte (erm what the flip) <C22319896@mytudublin.ie>
+ Primary key fingerprint: 798D 420A A42B 0E04 71DF  AF2A 4E11 9169 A647 63C5
+      Subkey fingerprint: D298 E241 9DF2 2AE1 7014  E56B 5915 F851 C00D 4815
+
+It is NOT certain that the key belongs to the person named
+in the user ID.  If you *really* know what you are doing,
+you may answer the next question with yes.
+
+Use this key anyway? (y/N) y
+gpg: can't open 'jenny-text-file.txt': No such file or directory
+gpg: jenny-text-file.txt: encryption failed: No such file or directory
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys $ pwd
+/workspaces/os-yr-1/Downloads/public-keys
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys $ ls
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys $ ls
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys $ vi jenny-text-file.txt
+
+[1]+  Stopped                 vi jenny-text-file.txt
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys $ vim jenny-text-file.txt
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys $ 
+@c22448184 ➜ /workspaces/os-yr-1/Downloads/public-keys $ cd ..
+@c22448184 ➜ /workspaces/os-yr-1/lab-3/Downloads (main) $ gpg --output encrypted_file.gpg --encrypt --recipient C22319896@mytudublin.ie jenny-text-file.txt
+gpg: 5915F851C00D4815: There is no assurance this key belongs to the named user
+
+sub  rsa4096/5915F851C00D4815 2023-04-26 Calvin Delporte (erm what the flip) <C22319896@mytudublin.ie>
+ Primary key fingerprint: 798D 420A A42B 0E04 71DF  AF2A 4E11 9169 A647 63C5
+      Subkey fingerprint: D298 E241 9DF2 2AE1 7014  E56B 5915 F851 C00D 4815
+
+It is NOT certain that the key belongs to the person named
+in the user ID.  If you *really* know what you are doing,
+you may answer the next question with yes.
+
+Use this key anyway? (y/N) y
+@c22448184 ➜ /workspaces/os-yr-1/lab-3/Downloads (main) $ g
+@c22448184 ➜ /workspaces/os-yr-1/lab-3/Downloads (main) $ gpg --armor --export C22448184@mytudublin.ie
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+=vzjO
+-----END PGP PUBLIC KEY BLOCK-----
+@c22448184 ➜ /workspaces/os-yr-1/lab-3/Downloads (main) $ pwd
+/workspaces/os-yr-1/lab-3/Downloads
+@c22448184 ➜ /workspaces/os-yr-1/lab-3/Downloads (main) $ gpg --output encrypted_file.gpg --encrypt --recipient C22319896@mytudublin.ie jenny-text-file.txt
+gpg: 5915F851C00D4815: There is no assurance this key belongs to the named user
+
+sub  rsa4096/5915F851C00D4815 2023-04-26 Calvin Delporte (erm what the flip) <C22319896@mytudublin.ie>
+ Primary key fingerprint: 798D 420A A42B 0E04 71DF  AF2A 4E11 9169 A647 63C5
+      Subkey fingerprint: D298 E241 9DF2 2AE1 7014  E56B 5915 F851 C00D 4815
+
+It is NOT certain that the key belongs to the person named
+in the user ID.  If you *really* know what you are doing,
+you may answer the next question with yes.
+
+Use this key anyway? (y/N) n
+gpg: jenny-text-file.txt: encryption failed: Unusable public key
+@c22448184 ➜ /workspaces/os-yr-1/lab-3/Downloads (main) $ g
+p
+bash: gp: command not found
+@c22448184 ➜ /workspaces/os-yr-1/lab-3/Downloads (main) $ gpg --output encrypt_this_calvin --encrypt -- recipient C22319896@mytudublin.ie jenny-text-file.txt
+usage: gpg [options] --encrypt [filename]
+@c22448184 ➜ /workspaces/os-yr-1/lab-3/Downloads (main) $ gpg --output encrypt-this-calvin --encrypt --recipient C22319896@mytudublin.ie jenny-text-file
+gpg: 5915F851C00D4815: There is no assurance this key belongs to the named user
+
+sub  rsa4096/5915F851C00D4815 2023-04-26 Calvin Delporte (erm what the flip) <C22319896@mytudublin.ie>
+ Primary key fingerprint: 798D 420A A42B 0E04 71DF  AF2A 4E11 9169 A647 63C5
+      Subkey fingerprint: D298 E241 9DF2 2AE1 7014  E56B 5915 F851 C00D 4815
+
+It is NOT certain that the key belongs to the person named
+in the user ID.  If you *really* know what you are doing,
+you may answer the next question with yes.
+
+Use this key anyway? (y/N) y
+gpg: can't open 'jenny-text-file': No such file or directory
+gpg: jenny-text-file: encryption failed: No such file or directory
+@c22448184 ➜ /workspaces/os-yr-1/lab-3/Downloads (main) $ gpg --output encrypt-this-calvin --encrypt --recipient C22319896@mytudublin.ie jenny-text-file.txt
+gpg: 5915F851C00D4815: There is no assurance this key belongs to the named user
+
+sub  rsa4096/5915F851C00D4815 2023-04-26 Calvin Delporte (erm what the flip) <C22319896@mytudublin.ie>
+ Primary key fingerprint: 798D 420A A42B 0E04 71DF  AF2A 4E11 9169 A647 63C5
+      Subkey fingerprint: D298 E241 9DF2 2AE1 7014  E56B 5915 F851 C00D 4815
+
+It is NOT certain that the key belongs to the person named
+in the user ID.  If you *really* know what you are doing,
+you may answer the next question with yes.
+
+Use this key anyway? (y/N) y
+@c22448184 ➜ /workspaces/os-yr-1/lab-3/Downloads (ma
+@c22448184 ➜ /workspaces/os-yr-1/lab-3/Downloads (main) $ gpg --output encrypt-this--franz --encrypt --recipient C22522443@mytudublin.ie jenny-text-file.txt
+gpg: 249C33660B523D8F: There is no assurance this key belongs to the named user
+
+sub  rsa4096/249C33660B523D8F 2023-04-26 Franz Shih (DasMyKey) <C22522443@mytudublin.ie>
+ Primary key fingerprint: 0562 6BAA 1C9A 68CB 39A0  AD7E 459A 607D 5F2D AAEE
+      Subkey fingerprint: A60D 6326 FCCD C0EC 536F  CEE3 249C 3366 0B52 3D8F
+
+It is NOT certain that the key belongs to the person named
+in the user ID.  If you *really* know what you are doing,
+you may answer the next question with yes.
+
+Use this key anyway? (y/N) y
+@c22448184 ➜ /workspaces/os-yr-1/lab-3/Downloads (main) $ g
+@c22448184 ➜ /workspaces/os-yr-1/lab-3/Downloads (main) $ gpg --put jeny-decrypted.txt --decrypt jeny.txt
+gpg: invalid option "--put"
+@c22448184 ➜ /workspaces/os-yr-1/lab-3/Downloads (main) $ gpg --output jeny-decrypted.txt --decrypt jeny.txt
+gpg: encrypted with 4096-bit RSA key, ID C7DBC49CBE96E1A5, created 2023-04-26
+      "Jenny Thao Huynh (Hello there!) <C22448184@mytudublin.ie>"
+@c22448184 ➜ /workspaces/os-yr-1/lab-3/Downloads (main) $ gpg --output from-franz-decrypted.txt --decrypt from-franz.txt
+gpg: encrypted with 4096-bit RSA key, ID C7DBC49CBE96E1A5, created 2023-04-26
+      "Jenny Thao Huynh (Hello there!) <C22448184@mytudublin.ie>"
+@c22448184 ➜ /workspaces/os-yr-1/lab-3/Downloads (main) $ 
