@@ -1,10 +1,10 @@
 # os-yr-1
 The first repository I've created to learn Git commands
 
-# lab 1
+# lab 2
 Results : [Screenshot](https://github.com/c22448184/os-yr-1/blob/main/lab-2/lab-2.JPG)
 
-# lab 2
+# lab 3
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBGRJGcwBEADJ6rXhhwanr7YwOox/wCI+4FVpuaKF/jrNG4JepioJ3I3U+7kP
@@ -57,3 +57,4 @@ pN6mT1nbtUTncI5UirMH8SkZlKuwH3stK2aFZ020dV0S6vcIW486ft15fV40KKYG
 VVdJ+3yEI94cXXvqmiFvfVbIxcbKzlogTOvBpZtzlUCp
 =vzjO
 -----END PGP PUBLIC KEY BLOCK-----
+
