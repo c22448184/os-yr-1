@@ -74,3 +74,7 @@ Results of cat /proc/meminfo
 MemTotal:        4026540 kB (The total RAM allocated to the system)
 MemFree:          191128 kB
 MemAvailable:    2622640 kB (The total RAM available I think)
+
+What happens when you redirect to an existing file using >?
+It overwrites what was originally in the file.
+Where as using >> appends it to the end of the file.
