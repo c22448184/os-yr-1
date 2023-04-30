@@ -65,3 +65,5 @@ Modified alice.txt perms: [Screenshot](https://github.com/c22448184/os-yr-1/blob
 
 
 Modified file-management directory perms: [Screenshot](https://github.com/c22448184/os-yr-1/blob/main/assignment/lab-6/changing-perms.JPG)
+
+Echoing environment variables: [Screenshot](https://github.com/c22448184/os-yr-1/blob/main/assignment/lab-6/echo_environment_vars.JPG)
