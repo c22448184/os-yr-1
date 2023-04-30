@@ -61,5 +61,7 @@ VVdJ+3yEI94cXXvqmiFvfVbIxcbKzlogTOvBpZtzlUCp
 # lab 6 - Getting Started With The Shell
 Please note that assignment >> lab-6 is the correct lab work. I broke the one that isn't in the assignment directory.
 
-Modified alice.txt perms: [Screenshot]()
+Modified alice.txt perms: [Screenshot](https://github.com/c22448184/os-yr-1/blob/main/assignment/lab-6/file-management/alice-perms.JPG)
+
+
 
