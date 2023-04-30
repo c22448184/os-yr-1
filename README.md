@@ -64,4 +64,4 @@ Please note that assignment >> lab-6 is the correct lab work. I broke the one th
 Modified alice.txt perms: [Screenshot](https://github.com/c22448184/os-yr-1/blob/main/assignment/lab-6/file-management/alice-perms.JPG)
 
 
-
+Modified file-management directory perms: [Screenshot](https://github.com/c22448184/os-yr-1/blob/main/assignment/lab-6/file-management/alice-perms.JPG)
