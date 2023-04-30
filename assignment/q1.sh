@@ -19,7 +19,7 @@ do
 
         "Display command history")
             echo "$opt:"
-            cat ~/.bash_history;;
+            echo -e $(cat ~/.bash_history);;
 
         "Backup files")
             echo "$opt." 

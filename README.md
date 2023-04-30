@@ -78,3 +78,5 @@ MemAvailable:    2622640 kB (The total RAM available I think)
 What happens when you redirect to an existing file using >?
 It overwrites what was originally in the file.
 Where as using >> appends it to the end of the file.
+
+Direct Downlaod of system report: https://raw.githubusercontent.com/c22448184/os-yr-1/main/assignment/lab-6/sysDetails/systemStats.txt?token=GHSAT0AAAAAAB7NY5F25ZRLFKAOYLQYMFUIZCOYHQA
