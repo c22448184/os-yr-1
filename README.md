@@ -1,6 +1,9 @@
 # os-yr-1
 The first repository I've created to learn Git commands
 
+# assignment
+q1.sh is the assignment Q1.
+
 # lab 2
 Results : [Screenshot](https://github.com/c22448184/os-yr-1/blob/main/lab-2/lab-2.JPG)
 
